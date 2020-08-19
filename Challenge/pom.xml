@@ -11,7 +11,6 @@
 
     <properties>
         <java.version>11</java.version>
-        <cucumber-version>4.2.6</cucumber-version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
     </properties>
 
@@ -68,31 +67,6 @@
                     <groupId>org.hibernate.validator</groupId>
                 </exclusion>
             </exclusions>
-        </dependency>
-
-        <!-- Testing -->
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>${cucumber-version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-spring</artifactId>
-            <version>${cucumber-version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>${cucumber-version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
